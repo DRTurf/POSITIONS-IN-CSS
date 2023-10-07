@@ -1,0 +1,7 @@
+Relative positioning in Css:
+
+The element is positioned relative to its normal position.
+
+Absolute positioning in Css:
+
+The element is positioned absolutely to its first positioned parent.

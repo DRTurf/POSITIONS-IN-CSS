@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 5</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            border: 2px solid #000;
+            text-align: center;
+            font-size: 100px;
+            position: absolute; /*position: absolute brings div "second" on top of div "first" */
+        }
+        .first{
+            z-index: 1; /* z-index: 1 brings div "first" on top of div "second"; the element with higher z-index value will be stacked on top*/
+        }
+    </style>
+</head>
+<body>
+    <div class="first" style="background-color: blueviolet;">1</div>
+    <div class="second" style="background-color: orangered;">2</div>
+</body>
+</html>
